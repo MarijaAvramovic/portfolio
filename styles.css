@@ -39,7 +39,7 @@ img {
 .hero-img {
   width: 100%;
   min-height: 350px;                
-  background-image: url("img/pexels-hans-martha-399489-1059823 (1).jpg");
+  background-image: url("img/ma.JPG");
   background-size: cover;
   background-position: center;
   border-radius: 12px;
@@ -126,6 +126,13 @@ grid-template-columns: 1fr;
 .project-card:hover img {
   transform: scale(1.06);
 }
+.project-card a{
+  text-decoration: none;
+  color: #333;
+}
+.project-card a:visited{
+ 
+}
 
 .project-card .links {
   padding: 1rem;
@@ -200,6 +207,7 @@ footer img {
   border-radius: 12px;
   margin-top: 2rem;
 }
+
 
  
 @media (min-width: 768px) {
